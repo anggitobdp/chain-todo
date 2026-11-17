@@ -6,4 +6,5 @@ class AppConfig {
   static const chainId = 11155111; // Sepolia
 
   static String get rpcUrl => dotenv.env['RPC_URL']!;
+  static String get privateKey => dotenv.env['PRIVATE_KEY']!;
 }
