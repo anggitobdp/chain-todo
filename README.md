@@ -27,12 +27,12 @@ Kode kontrak ada di [`contracts/ChainTodo.sol`](contracts/ChainTodo.sol).
 
 | Paket | Versi |
 |---|---|
-| Flutter | ISI: salin dari hasil `flutter --version` |
+| Flutter |  3.47.0 |
 | Dart SDK | `^3.13.0` (sesuai `pubspec.yaml`) |
 | `web3dart` | `^3.0.3` (terpasang 3.0.3) |
 | `http` | `^1.6.0` |
 | `flutter_dotenv` | `^6.0.2` |
-| `wallet` | ISI: salin dari `pubspec.lock` (terpasang otomatis bersama `web3dart`) |
+| `wallet` | 0xf0049FeB881e8fE6E7868E36aCCbDcD195798c47|
 
 ## Fitur
 
@@ -43,8 +43,6 @@ Kode kontrak ada di [`contracts/ChainTodo.sol`](contracts/ChainTodo.sol).
 - Indikator status transaksi: memproses, berhasil (dengan hash transaksi), dan gagal (dengan pesan error).
 - Tombol refresh dan tarik-untuk-memuat-ulang.
 - Alamat kontrak, RPC URL, dan chain ID dikelola di satu tempat: [`lib/config/app_config.dart`](lib/config/app_config.dart).
-
-ISI: tambahkan fitur bonus yang dikerjakan (misalnya filter tugas) bila ada.
 
 ## Arsitektur
 
@@ -124,9 +122,8 @@ Kontrak diuji lebih dulu di Remix VM sebelum di-deploy ke Sepolia:
 - Kerangka kontrak `ChainTodo.sol` berasal dari dokumen tugas dosen.
 - Alur koneksi Flutter ke kontrak diadaptasi dari video tutorial "Build Your First Blockchain Flutter App" dan "Building a Blockchain Decentralized App with Flutter and Dart on Ethereum", disesuaikan ke Sepolia dan `web3dart` 3.x.
 - Dokumentasi: web3dart, Flutter, Remix IDE, dan Etherscan.
-- ISI: sesuaikan dengan kenyataan. Bantuan AI (Claude) dipakai sebagai asisten belajar dan untuk menyusun contoh kode; seluruh kode sudah diuji dan dapat dijelaskan oleh anggota kelompok.
 
 ## Tautan luaran
 
-- Video demo: ISI: link YouTube (unlisted) atau Google Drive
-- APK: ISI: link atau keterangan berkas yang dikumpulkan
+- Video demo: https://drive.google.com/drive/folders/180d3uHWTPmWx7FYfZbg2jf9WbBeD6lZt
+- APK: build\app\outputs\flutter-apk\app-release.apk
