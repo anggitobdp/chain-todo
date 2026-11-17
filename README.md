@@ -124,5 +124,4 @@ Kontrak diuji lebih dulu di Remix VM sebelum di-deploy ke Sepolia:
 
 ## Tautan luaran
 
-- Video demo: https://drive.google.com/drive/folders/180d3uHWTPmWx7FYfZbg2jf9WbBeD6lZt
-- APK: build\app\outputs\flutter-apk\app-release.apk
+- Video demo dan APK : https://drive.google.com/drive/folders/180d3uHWTPmWx7FYfZbg2jf9WbBeD6lZt
