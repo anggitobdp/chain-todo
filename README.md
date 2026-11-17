@@ -14,8 +14,7 @@ Anggito Bayu Dwi Permadi 246661021
 |---|---|
 | Jaringan | Sepolia Testnet (chain ID `11155111`) |
 | Alamat kontrak | `0xb8548Dc8898Cf260fed451cbF763ebF690197542` |
-| Link Etherscan | https://sepolia.etherscan.io/address/0xb8548Dc8898Cf260fed451cbF763ebF690197542 |
-| Status verifikasi | ISI: tulis sesuai tampilan di tab Contract Etherscan (Exact Match atau Similar Match) |
+| Link Etherscan | `https://sepolia.etherscan.io/address/0xb8548Dc8898Cf260fed451cbF763ebF690197542` |
 | Compiler | Solidity `0.8.30+commit.73712a01` |
 | Optimization | Tidak aktif |
 | EVM version | default (osaka) |
@@ -27,9 +26,9 @@ Kode kontrak ada di [`contracts/ChainTodo.sol`](contracts/ChainTodo.sol).
 
 | Paket | Versi |
 |---|---|
-| Flutter |  3.47.0 |
-| Dart SDK | `^3.13.0` (sesuai `pubspec.yaml`) |
-| `web3dart` | `^3.0.3` (terpasang 3.0.3) |
+| Flutter |  `3.47.0` |
+| Dart SDK | `^3.13.0` |
+| `web3dart` | `^3.0.3` |
 | `http` | `^1.6.0` |
 | `flutter_dotenv` | `^6.0.2` |
 | `wallet` | 0xf0049FeB881e8fE6E7868E36aCCbDcD195798c47|
